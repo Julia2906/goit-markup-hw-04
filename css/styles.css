@@ -242,6 +242,16 @@ img {
   max-width: 264px;
   flex-direction: column;
 }
+
+.features-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #f4f4fd;
+  height: 112px;
+  margin-bottom: 8px;
+}
 /* ================ Features =========================*/
 
 /* ===================== Products ===================== */
