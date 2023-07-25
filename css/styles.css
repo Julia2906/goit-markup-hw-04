@@ -67,6 +67,9 @@ img {
 .page-header {
   border-bottom: 1px solid var(--portfolio-button);
   background: var(--background-color-white);
+  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 
 .header-nav {
@@ -152,6 +155,16 @@ img {
 .hero {
   background-color: var(--second-text-color);
   padding: 188px 0;
+
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-button {
@@ -186,6 +199,7 @@ img {
   line-height: 1.07;
   letter-spacing: 1.12px;
 }
+
 /* ===================== Hero =======================*/
 
 .features-title,
@@ -337,10 +351,14 @@ img {
 .social-icon {
   fill: var(--background-clor-grey);
 }
-.social-link:hover,
+.social-link:hover {
+  background-color: var(--active-button);
+}
+
 .social-link:focus {
   background-color: var(--active-button);
 }
+
 /* ======================Team ========================*/
 
 /* ================= Customers========== */
@@ -366,14 +384,17 @@ img {
 
   border-radius: 4px;
   border: 1px solid var(--customers-border);
+  color: var(--customers-border);
+  height: 100%;
 }
 
 .customers-link:hover,
 .customers-link:focus {
   border: 1px solid var(--active-button);
+  color: var(--active-button);
 }
 .customers-icon {
-  fill: var(--customers-border);
+  fill: currentColor;
 }
 
 .customers-icon:hover,
@@ -410,10 +431,15 @@ img {
   display: flex;
 }
 
-.footer-social {
-  display: inline-block;
+.footer-logo {
+  margin-right: 120px;
 }
-.footer-social-title {
+
+.footer-social {
+  display: flex;
+  align-items: baseline;
+}
+.footer-social-paragraph {
   margin-bottom: 16px;
 
   font-family: Roboto;
@@ -430,10 +456,9 @@ img {
   background-color: var(--footer-active-icons);
 }
 
-.footer-conteiner {
-  display: flex;
+.footer .social-list {
+  gap: 16px;
 }
-
 /* ===================== Footer ========================*/
 
 /* ===================== Portfolio ==================== */
@@ -472,6 +497,8 @@ img {
   background-color: var(--active-button);
   color: var(--background-color-white);
   cursor: pointer;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio-list {
@@ -481,6 +508,15 @@ img {
   gap: 48px 24px;
 }
 
+.portfolio-link {
+  display: block;
+}
+
+.portfolio-link:hover,
+.portfolio-link:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 .portfolio-title {
   color: var(--second-text-color);
   font-size: 20px;
