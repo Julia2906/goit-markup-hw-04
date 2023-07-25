@@ -351,11 +351,13 @@ img {
 .social-icon {
   fill: var(--background-clor-grey);
 }
-.social-link:hover,
-.social-link:focus {
+.social-link:hover {
   background-color: var(--active-button);
 }
 
+.social-link:focus {
+  background-color: var(--active-button);
+}
 /* ======================Team ========================*/
 
 /* ================= Customers========== */
