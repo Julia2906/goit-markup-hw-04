@@ -351,10 +351,7 @@ img {
 .social-icon {
   fill: var(--background-clor-grey);
 }
-.social-link:hover {
-  background-color: var(--active-button);
-}
-
+.social-link:hover,
 .social-link:focus {
   background-color: var(--active-button);
 }
@@ -427,8 +424,9 @@ img {
   padding: 0;
   margin-bottom: 16px;
 }
-.footer-conteiner {
+.footer-container {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-logo {
@@ -436,8 +434,7 @@ img {
 }
 
 .footer-social {
-  display: flex;
-  align-items: baseline;
+  display: block;
 }
 .footer-social-paragraph {
   margin-bottom: 16px;
