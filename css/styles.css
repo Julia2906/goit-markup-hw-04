@@ -448,8 +448,8 @@ img {
   color: var(--background-color-white);
 }
 
-.footer .social-link:hover,
-.social-link:focus {
+.footer .social-link-team:hover,
+.social-link-team:focus {
   background-color: var(--footer-active-icons);
 }
 
