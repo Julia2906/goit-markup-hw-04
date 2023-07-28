@@ -337,7 +337,7 @@ img {
   height: 40px;
 }
 
-.social-link {
+.social-link-team {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -351,13 +351,11 @@ img {
 .social-icon {
   fill: var(--background-clor-grey);
 }
-.social-link:hover {
+.social-link-team:hover,
+.social-link-team:focus {
   background-color: var(--active-button);
 }
 
-.social-link:focus {
-  background-color: var(--active-button);
-}
 /* ======================Team ========================*/
 
 /* ================= Customers========== */
