@@ -449,7 +449,7 @@ img {
 }
 
 .footer .social-link-team:hover,
-.social-link-team:focus {
+.footer .social-link-team:focus {
   background-color: var(--footer-active-icons);
 }
 
